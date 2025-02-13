@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-size: 18px;
+    font-family: "Lato", sans-serif;
+}
+
+.img-responsive {
+    width: 100%;
+    height: auto;
+}
+
+/* Navigation Section */
+nav {
+    padding: 20px 0;
+    background-color: #fff;
+}
+.nav-btn {
+    background-color: #ED1B24;
+    font-size: 20px;
+    color: #fff;
+    padding: 15px 15px;
+    border-radius: 15px;
+}
+.nav-btn:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+/*Home Banner Section*/
+.home-banner {
+    padding:80px 0;
+    background-image:url('../images/diverse-people-working-office-scaled.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+    color:#fff;
+    position:relative;
+    z-index:1;
+}
+.home-banner:before {
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+    background:#000;
+    opacity:0.7;
+    z-index:-1;
+}
+
+/* Banner Section */
+.banner {
+    padding: 60px 0;
+    background-color: #F3F3F3;
+}
+.banner h2 {
+    font-weight: 600;
+}
+.cust-btn {
+    background-color: #30A01F;
+    font-size: 22px;
+    border-radius: 15px;
+    color: #fff;
+    padding: 10px 15px;
+}
+.cust-btn:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Picking Section */
+.picking {
+    padding: 40px 0;
+}
+.picking h4 {
+    font-weight: 600;
+}
+
+/* Because Section */
+.because {
+    text-align: center;
+}
+.because h3 {
+    font-weight: 600;
+}
+
+/* About Us Section */
+.about-us,
+.services {
+    padding: 40px 0;
+}
+.about-us h2,
+.services h2 {
+    font-weight: 600;
+}
+
+/* Reporting Section */
+.main-report {
+    padding: 15px;
+}
+.custom-report {
+    padding: 15px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    background:#fff;
+    height: 280px;
+}
+.custom-report i {
+    color: #ED1B24;
+    font-size: 35px;
+}
+.first-report {
+    box-shadow:none;
+}
+.report-pre {
+    background-color: #ED1B24;
+    color: #fff;
+    box-shadow:none;
+    border-radius: 45px 0 0 0;
+}
+.report-btn {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius:10px;
+}
+.report-btn:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Why Section */
+.why {
+    padding: 60px 0;
+}
+.why h3 {
+    font-weight: 600;
+}
+.why h5 {
+    font-weight: 600;
+}
+.why i {
+    color: #ED1B24;
+}
+
+/* Footer Section */
+footer {
+    padding: 60px 0;
+    background-color: #313030;
+    color: #fff;
+}
+footer a {
+    color: #fff;
+}
+footer a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+@media (max-width:768px) {
+    .picking img {
+        padding-top: 15px;
+    }
+    .picking .col-md-3 img {
+        width:50%
+    }
+    .custom-report {
+        height: 210px;
+    }
+}
+
+/* Privacy policy Page */
+/* Privacy Content Section */
+.privacy-content {
+    padding: 60px 0;
+}
+.privacy-content h2 {
+    text-align: center;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+.privacy-content h5,
+.privacy-content h6 {
+    font-weight: 600;
+}
